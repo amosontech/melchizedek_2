@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY WEATHER APP</title>
+    <link rel="shortcut icon" href="./images/clouds.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Poppins/poppins.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./fontawesome-free/css/all.min.css">
+</head>
+<body>
+    <main class="main">
+
+        <aside class="sidebar">
+            <div class="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+
+            <form action="#" method="get" class="searchbar">
+                <input type="search" class="search-inp" placeholder="Search Country" spellcheck="false" required/>
+                <button type="submit" class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            
+            <div class="country-cities">
+                <header>
+                    <h1>Country/Cities</h1>
+                </header>
+                <div class="city-lists">
+                    <h4>Loading Cities....</h4>
+                </div>
+            </div>
+
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <div class="sidebar-toggle">
+                    <div class="lines"></div>
+                    <div class="lines"></div>
+                    <div class="lines"></div>
+                </div>
+                <div class="app-details">
+                    <h2 class="app-name">Weather App</h2>
+                    <img src="./images/clouds.png" class="app-img">
+                </div>
+            </nav>
+            <div class="conent">
+                <div class="weather-details">
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./images/drizzle.png" class="weather-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="temp">---</h2>
+                            <p class="weather-desc">---</p>
+                            <h2 class="city">city name</h2>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./images/humidity.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="humidity">---%</h2>
+                            <h2 class="">Humidity</h2>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./images/wind.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="wind_speed">---km/h</h2>
+                            <h2 class="">Wind Speed</h2>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./images/pressure.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="presure">--- Pa</h2>
+                            <h2 class="">Pressure</h2>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./images/latitude.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="lat">---°</h2>
+                            <h2 class="">Latitude</h2>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./images/longitude.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="long">---°</h2>
+                            <h2 class="">Longitude</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
